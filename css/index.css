@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+.inner{width: 1117px;margin: 0 auto;}
+
+/*header*/
+.header{
+    background: #161616;
+}
+.header .logo_left{
+    padding: 30px 0 22px 0;
+}
+.header .logo_left p{
+    font:12px/57px "微软雅黑";
+    color: #e95254;
+    padding-left: 15px;
+}
+.header .logo_right{
+    margin:44px 1px 0 0;
+}
+.header .logo_right input{
+    width: 220px;
+    height: 26px;
+    font: 12px "微软雅黑";
+    color:#c3b6d0;
+    text-indent: 15px;
+    background:#fff url("../images/sousuo_06.png") no-repeat 198px center;
+}
+
+/*nav*/
+.nav{
+    background: linear-gradient(#272727, #131313);
+}
+.nav .navBox{
+}
+.nav .navBox .fuA{
+    padding:18px 0;
+    text-align:center ;
+    position: relative;
+}
+.nav .navBox .fuA a{
+    display: block;
+    font:13px/17px "微软雅黑";
+    color: #fff;
+    padding: 0 37px;
+}
+.nav .navBox li .sub_nav{
+    display: none;
+    position: absolute;
+    left: 0;
+    top:53px;
+    padding-top: 6px;
+}
+.nav .navBox li .sub_nav ul{
+    border: 1px solid #222;
+    background: #000;
+    padding: 13px 0 14px 0;
+}
+.nav .navBox li .sub_nav a{
+    display: block;
+    text-align: center;
+    font:10px/32px "微软雅黑";
+    color: #fff;
+}
+/*banner*/
+.banner{
+    background: #242424;
+}
+.banner .inner .picBox img{
+    padding-top: 23px;
+}
+.banner .banner_bot{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0 88px 0;
+    border-bottom: 1px solid #272727;
+}
+.banner .banner_bot h3{
+    font:21px/71px "微软雅黑";
+    color: #fff;
+}
+.banner .banner_bot h3 span{
+    color: #e95355;
+}
+.banner .banner_bot .banner_bot2 .p1{
+    font:bold 12px "微软雅黑";
+    color:#cbc9ca;
+    padding: 79px 0 23px 0;
+}
+.banner .banner_bot .banner_bot2 .p2{
+    width: 451px;
+    font:12px/19px "微软雅黑";
+    color: #76777b;
+}
+.banner .banner_bot .banner_bot2 .p3{
+    width: 453px;
+    font:12px/19px "微软雅黑";
+    color: #76777b;
+    padding-top: 19px;
+}
+.banner .banner_bot .banner_bot3 .p1{
+    width: 308px;
+    font:13px/19px "微软雅黑";
+    color: #76777b;
+    padding: 30px;
+    background: #191919;
+}
+.banner .banner_bot .banner_bot3 .sanjiao{
+    border-bottom:24px solid #242424;
+    border-left:14px solid #191919;
+    border-right:14px solid #242424;
+    margin-left: 53px;
+}
+.banner .banner_bot .banner_bot3 .p2{
+    font:bold 12px "微软雅黑";
+    color: #c7c7c5;
+    padding: 15px 0 10px 0;
+}
+.banner .banner_bot .banner_bot3 .p3{
+    font:12px "微软雅黑";
+    color: #76777b;
+}
+
+/*main*/
+.main{
+    background: #191919;
+    padding-bottom: 37px;
+    border-bottom: 5px solid #171717;
+}
+.main .mainTop h3{
+    font:21px/59px "微软雅黑";
+    color: #fff;
+    padding-top: 30px;
+}
+.main .mainTop h3 span{
+    color: #e95355;
+}
+.main .mainTop .btnBox{
+    padding-top: 48px;
+}
+.main .mainTop .btnBox .a1{
+    width: 9px;
+    height: 16px;
+    display: block;
+    background: url("../images/btnl_03.jpg") no-repeat;
+    margin-right: 7px;
+}
+.main .mainTop .btnBox .a2{
+    width: 9px;
+    height: 16px;
+    display: block;
+    background: url("../images/btnr_05.jpg") no-repeat;
+    margin-left: 7px;
+}
+.main .mainBot{
+    overflow: hidden;
+    width: 1116px;
+    height: 229px;
+    position: relative;
+}
+.main .picBox{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+
+}
+.main .picBox .pic{
+    padding-right: 36px;
+
+}
+.main .picBox .pic .p1{
+    font:bold 12px "微软雅黑";
+    color: #959597;
+    padding: 27px 0 11px 0;
+}
+.main .picBox .pic .p2{
+    font:12px "微软雅黑";
+    color:#5a585b;
+}
+
+/*footer*/
+.footer{
+    background: #1e1e1e;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #2a2a2a;
+}
+.footer .footBox{
+    display: flex;
+    justify-content: left;
+}
+.footer .footBox .foot h3{
+    font:bold 18px "微软雅黑";
+    color: #fff;
+    padding: 52px 0 36px 0;
+}
+.footer .footBox .foot p{
+    font: 12px/29px "微软雅黑";
+    color: #666b67;
+    padding-left: 14px;
+    background: url("../images/sanjiao_03.jpg") no-repeat left center;
+}
+.footer .footBox .foot{
+    padding-right: 80px;
+}
+.footer .footBox .f1{
+    padding-right: 129px;
+}
+.footer .footBox .f2{
+    padding-right: 127px;
+}
+.footer .footBox .f3{
+    padding-right: 75px;
+}
+.footer .footBox .f4 .p1{
+    font: 12px/35px "微软雅黑";
+
+    background: url("../images/f_03.jpg") no-repeat left center;
+    padding-left: 44px;
+}
+.footer .footBox .f4 .p1 a{
+    color: #666b67;
+}
+.footer .footBox .f4 .p2{
+    background: url("../images/t_10.jpg") no-repeat left center;
+    padding-left: 44px;
+}
+.footer .footBox .f4 .p2 a{
+    color: #666b67;
+}
+.footer .footBox .f4 .p3{
+    background: url("../images/w_12.jpg") no-repeat left center;
+    padding-left: 44px;
+}
+.footer .footBox .f4 .p3 a{
+    color: #666b67;
+}
+
+/*COPY*/
+.copy{
+    background: #151515;
+    border-bottom:2px solid #fff;
+}
+.copy p{
+    font:12px/50px "微软雅黑";
+    color: #4b5757;
+}
+.copy p a{
+    color: #4b5757;
+}
+
+
+/*返回顶部*/
+#fanHui img{
+    position: fixed;
+    right: 24px;
+    bottom: 104px;
+}
